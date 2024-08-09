@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML ASSIGNMENT 1 to 10</title>
+
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(238, 237, 245);
+            color: #333;
+        }
+        main{
+            margin: 20px;
+            padding: 20px;
+            background-color: hwb(0 94% 4%);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        
+    </style>
+
+
+
+
+</head>
+<body>
+    <header>
+        <h1>URVI PAL</h1>
+        <nav>
+            <ul>
+                <li><a href="#intro">INTRODUCTION</a></li>
+                <li><a href="#form">HTML FORM</a></li>
+                <li><a href="#table">HTML TABLES</a></li>
+                <li><a href="#image">HTML IMAGES & LINKS</a></li>
+                <li><a href="#movie">NESTED LISTS</a></li>
+                <li><a href="#semantic">SEMANTIC HTML</a></li>
+                <li><a href="#medias">HTML MEDIAS</a></li>
+                <li><a href="#another form">HTML FORMS WITH SELECT AND RADIO BUTTONS</a></li>
+                <li><a href="#special characters">SOME SPECIAL CHARACTERS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>Personal Information</h2>
+            <p align="center">
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi dolor magnam debitis possimus cupiditate, quia est nesciunt quisquam delectus ipsam repudiandae autem aliquam? In odit voluptates, perspiciatis hic totam quam harum soluta porro ipsa quidem eum temporibus sequi aliquam facilis similique quae itaque corrupti sed illum vel inventore debitis ipsum praesentium? Debitis molestiae eius similique tenetur, obcaecati repellat at alias minus quasi, saepe possimus iure, reiciendis fugiat eligendi dicta eum optio expedita! Sit cumque quod, ipsa eveniet, dolorem nihil facilis esse quidem ullam eligendi beatae minima quo eos dolores ea expedita? Vel dolorum fugit commodi et, consectetur, expedita, corrupti porro soluta neque iusto obcaecati nobis culpa nihil dolores eveniet voluptatem nesciunt vitae cupiditate facere? Atque cumque temporibus repellat, hic distinctio voluptatum quod magnam consectetur quidem maiores. Minima necessitatibus optio aut quia doloribus voluptatem odit, ex non corrupti perspiciatis porro numquam. Fugiat a earum qui corporis quisquam maiores aliquid delectus atque sint praesentium! Facilis nihil ducimus provident, tempore deleniti cum in. Maxime id quas necessitatibus nihil dolor deleniti. Accusamus, itaque repellat a inventore debitis pariatur modi beatae necessitatibus aliquam ex culpa ad eos sequi ratione non eligendi numquam natus dolore asperiores voluptates. Fugiat, cupiditate? Magnam at ea nihil perferendis officiis recusandae culpa a illo optio corrupti distinctio iure temporibus ratione unde ducimus nam beatae error cum illum, eligendi, possimus itaque dolores. Iste est nemo reprehenderit alias aliquid quisquam doloremque perspiciatis odit culpa vel at voluptatem eligendi corrupti commodi delectus cum maxime tempora iusto totam, dolore unde itaque sit praesentium minus! Mollitia optio, debitis enim perferendis voluptate reiciendis voluptas recusandae quasi eum assumenda quibusdam magni earum reprehenderit! Dicta explicabo eaque adipisci quo corrupti cumque, nam, odit laborum molestias, voluptates est totam ut nesciunt sed dolores vitae molestiae harum dolor aspernatur voluptate mollitia tenetur. Tempore recusandae incidunt ad, praesentium enim quod optio officiis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, provident reiciendis? Deserunt neque repellendus laudantium accusantium molestiae quo. Iste quis corrupti eos consectetur est necessitatibus assumenda. 
+            </p>
+            <p align="left">Here's a list of my Hobbies:</p>
+            <ul>
+                <li>Reading</li>
+                  <li>Writing</li>
+                <li>Sketching</li>
+                <li>Zoning out, <strong>The best!!</strong></li>
+                <li>Surfing random websites, for eg.:
+                    <ul type="circle">
+                        <li><a href="https://www.epubbooks.com">My favorite website-1</a></li>
+                        <li><a href="https://www.goodreads.com">My favorite website-2</a>,and many more.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section id="form">
+            <h2>User Registration Form</h2>
+            <p>Weekly Newsletter Registration Form</p>
+            <form action="/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br> <br>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <section id="table">
+            <h2><caption>My weekly schedule</caption></h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Sunday</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                        <th>Saturday</th>
+                        
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        
+                        <td>HIIT</td>
+                        <td>Breakfast</td>
+                        <td>Bath</td>
+                        <td>Study Session</td>
+                        <td>Tution</td>
+                        <td>Dinner</td>
+                        <td>Walks</td>
+                    </tr>
+                    <tr>
+                        
+                        <td>Run</td>
+                        <td>Bath</td>
+                        <td>Study Session</td>
+                        <td>Tution</td>
+                        <td>Brunch</td>
+                        <td>Homework</td>
+                        <td>Dinner</td>                      
+                        
+                    </tr>
+                    <tr>
+                        
+                        <td>Yoga</td>
+                        <td>Bath</td>
+                        <td>Study Session</td>
+                        <td>Brunch</d>
+                        <td>Tution</td>
+                        <td>Dinner</td>
+                        <td>Homework</td>
+                    </tr>
+                    <tr>
+                        
+                        <td>Weight Training</td>
+                        <td>Breakfast</td>
+                        <td>Tution</td>
+                        <td>Bath</td>
+                        <td>Study Session</td>
+                        <td>Dinner</td>
+                        <td>Walk</td>
+                    </tr>
+                    <tr>
+                        
+                        <td>Weight Training</td>
+                        <td>Bath</td>
+                        <td>Study Session</td>
+                        <td>Brunch</td>
+                        <td>Tution</td>
+                        <td>Dinner</td>
+                        <td>Homework</td>
+                    </tr>
+                    <tr>
+                
+                        <td>HIIT</td>
+                        <td>Breakfast</td>
+                        <td>Bath</td>
+                        <td>Study Session</td>
+                        <td>Tution</td>
+                        <td>Dinner</td>
+                        <td>Walks</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="image">
+            <h2>My All time fav. image</h2>
+            <figure>
+                <img src="https://wallpapers.com/images/hd/deep-pictures-2048-x-2048-pxp08ew09nvz2w8d.jpg" width="800" alt="Beautiful image">
+                <figcaption>A Beautiful Showcase of many inspirable lies.</figcaption>
+            </figure>
+            <p>
+                <dfn>Go to the source of the image,</dfn>
+                <a href="https://wallpapers.com" target="_blank">click here</a>.
+            </p>
+        </section>
+        <section id="movie">
+            <h2>My Top 5 fav. movies</h2>
+            <ol>
+                <li>The Grand Budapest Hotel:
+                    <ul>
+                        <li>Year: 2014</li>
+                        <li>Main Actors: Ralph Fiennes</li>
+                        <li>Description:Ralph Fiennes shines as Gustave H., the meticulous and charming concierge of the Grand Budapest Hotel. His performance, combined with Wes Anderson’s signature visual style and a stellar ensemble cast, makes this film a whimsical and memorable experience.</li>
+                    </li>
+                        </ul>
+                   
+                        
+
+                <li>Pulp Fiction:
+                                <ul>
+                                <li>Year:1994 </li>
+                                <li>Main Actors:John Travolta</li>
+                                <li>Description:The lives of two mob hitmen, a wall street banker, and a mafia family are put to the test when a gangster steals a movie studio's heist film and kidnaps his wife.
+                                </li>
+                            </li>
+                        </ul>
+
+                                <li>Cult Fiction:
+                                    <ul>
+                                    <li>Year:1994 </li>
+                                    <li>Main Actors:John Travolta</li>
+                                    <li>Description:The lives of two mob hitmen, a wall street banker, and a mafia family are put to the test when a gangster steals a movie studio's heist film and kidnaps his wife.
+                                    </li>
+                                </li>
+                            </ul>
+                                    <li>Cars:
+                                        <ul>
+                                        <li>Year:1994 </li>
+                                        <li>Main Actors:John Travolta</li>
+                                        <li>Description:The lives of two mob hitmen, a wall street banker, and a mafia family are put to the test when a gangster steals a movie studio's heist film and kidnaps his wife.
+                                        </li>
+                                    </li>
+                                </ul>
+                                        <li>X:
+                                            <ul>
+                                            <li>Year:1994 </li>
+                                            <li>Main Actors:John Travolta</li>
+                                            <li>Description:The lives of two mob hitmen, a wall street banker, and a mafia family are put to the test when a gangster steals a movie studio's heist film and kidnaps his wife.
+                                            </li>
+                                        </li>
+                                    </ul>
+
+                     
+            </ol>
+        </section>
+        <section id="semantic">
+            <h2>HTML Document using semantic Elements</h2>
+            <article>
+                <h3>Favourite Music Tracks</h3>
+                <p>Though I enjoyed all the types of music, but still natural sounds, lofi dark and horrific music consume most of my time. But, I am also a theater enthusiast as I love watching plays,sometimes, I have volunteered for some production works also</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita fugit distinctio debitis odit beatae accusamus repudiandae rem sint nisi voluptates molestiae et facere numquam facilis sunt veritatis amet rerum, minus, quae laboriosam. Voluptas molestias quod esse, facere corporis beatae nemo dolorem similique inventore explicabo vel, reprehenderit nam corrupti nesciunt, magni cum. Saepe iure quam, fugit quod laboriosam reprehenderit? Atque saepe omnis nam eaque accusamus explicabo iste! Voluptates, reprehenderit beatae quis nesciunt deleniti perferendis cum, animi qui eius ipsam ad iure vitae, unde aperiam autem. Provident cumque libero accusantium expedita est eum in enim animi inventore eaque, odit qui, tempore soluta quam nemo. Adipisci soluta, laudantium voluptate culpa incidunt id dolorum vitae minus aperiam nisi, aliquid ullam temporibus corrupti praesentium in ab assumenda! Sapiente consectetur voluptatem iste blanditiis sint ab aspernatur beatae. Recusandae unde nam earum sunt, inventore dignissimos a consequuntur. Dolorum, exercitationem? Esse at mollitia, sapiente laboriosam voluptates consequuntur vitae? Perferendis aperiam obcaecati pariatur quia amet autem tempora voluptatem dolores. Ut id eveniet fuga, alias atque, nesciunt, dicta excepturi quasi iusto praesentium dolore reprehenderit. Vero, aut laudantium repellendus corrupti maxime libero, cupiditate ab vel unde quidem iusto quibusdam! Suscipit provident cumque quod, ipsum tempora vero eius quae tenetur veritatis eaque deserunt nemo dolores itaque ea assumenda officiis voluptatibus odit quis autem rerum sapiente quam. Neque, delectus deleniti ut reprehenderit aut aspernatur molestias repudiandae provident voluptatem quidem. Saepe similique molestiae atque, deserunt amet illo, assumenda vel facere magni repellat at veritatis iste eos repellendus dolores sapiente dolorem aperiam maiores. Iste eveniet esse fugiat, molestiae omnis nemo vero in sunt officia ut cum tempore deserunt a. Perspiciatis quia deserunt sapiente provident. Aspernatur hic nesciunt tempore doloribus nisi impedit possimus, quam facere sunt consectetur magnam asperiores maxime laborum veritatis debitis, molestiae tenetur esse, qui odit aliquid voluptas praesentium? Incidunt ipsa, reiciendis consequuntur inventore numquam molestiae provident ab ad unde! Repellendus quo neque quisquam animi maxime ex nam ipsum numquam perspiciatis vitae cumque aliquam vel nemo, incidunt hic reiciendis repudiandae provident dolore porro! Quis eligendi, quo et ipsum officiis totam? Vel, amet minima mollitia velit, distinctio esse nam harum accusamus voluptate eum explicabo ratione ab ullam doloremque laudantium porro cum vitae tempora delectus nostrum. Nostrum odit laboriosam, perspiciatis ullam veritatis modi deserunt sint animi. Aliquid ipsam inventore porro rerum expedita sit sunt, optio, esse eaque amet similique distinctio tempore incidunt debitis illo, dolorum mollitia tenetur natus cumque voluptas officia ut ex consequatur? Minus quos eaque dolores fuga? Voluptas in mollitia consequuntur totam ea ducimus vero id unde voluptatibus tempore. Hic unde, ab amet nihil animi eveniet rem maiores facilis, ad magni totam iste atque debitis odit velit! Nostrum veniam eum consectetur voluptas. Iure ducimus voluptatibus sint sapiente id aut illum dolor assumenda officia ullam, impedit temporibus doloremque iste praesentium maxime consequatur facere maiores deleniti tempora eaque ipsam. Deleniti sapiente ex quas reprehenderit assumenda. Voluptates fugiat eum minus ut id mollitia reprehenderit dignissimos non inventore hic, neque, provident totam omnis architecto officiis quas a impedit dicta. Cumque ducimus quod blanditiis consequuntur excepturi, rerum facilis nesciunt?</p>
+            </article>
+            <aside>
+                <h2>Related links</h2>
+                <ul type="a">
+                    <li>Related link 1,<a href="https://youtu.be/hOHKltAiKXQ?si=6DKX_PXKBLJCuZX8"><u>Video</u></a></li>
+                    <li>Related link 2,<a href="#form"><u>Form</u></a></li>
+                    <li>Related link 3,<a href="#contact"><u>Contacts</u></a></li>
+                </ul>
+            </aside>
+        </section>
+        <section id="medias">
+<h2>Audios and Videos</h2>
+<h3>Audio Player:</h3>
+<audios source src="sample-3s.mp3" controls autoplay alt="Your browser doesn't support this element."> 
+</audios>
+<p>Above is an example of of an Audio Player.</p>
+<h3>Video Player:</h3>
+
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6t2j1Asw8UA?si=yxkgqo6xHXYYphJ3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen alt="Your browser doesnt support this element"></iframe>
+
+    
+
+<p> Above is an example of Video Player.</p>
+ </section>
+ <section id="another form">
+    <h2>Supplementary form</h2>
+    <form action="/submit " method="post">
+        <label for="username">Name:</label>
+        <input type="text" id="username"name="username"> <br>
+        <label for="country">Country:</label>
+        <select id="country" name="country"> <br>
+            <option value="USA">  </option>
+            <option value="Canada">Canada  </option>
+            <option value="Brazil"> Brazil</option>
+            <option value="Africa"> Africa </option>
+            <option value="Greenland"> Greenland</option>
+            <option value="India">  India</option>
+            <option value="Thailand">Thailand </option>
+            </select>
+             <br>
+             <label>Gender:</label>
+             <input type="radio" id="male" name="gender" value="male">
+             <label for="male">Male</label>
+             <input type="radio" id="female" name="gender" value="female">
+             <label for="female">Female</label>
+             <input type="radio" id="transgender" name="gender" value="transgender">
+             <label for="transgender">Transgender</label><br>
+             <input type="submit" value="submit">
+            </form>
+ </section>
+
+ <section id="special characters">
+    <h2>Special Characters using HTML entities</h2>
+    <p>Here are some special characters:</p>
+    <ul>
+        <li>Non-Breaking space:&nbsp; </li>
+        <li>Less than:&lt; </li>
+        <li>Greater than:&gt; </li>
+        <li>Ampersand:&amp; </li>
+        <li>Cent:&cent; </li>
+        <li>Pound:&pound; </li>
+        <li>Yen:&yen; </li>
+        <li>euro:&euro; </li>
+        <li>Section: &sect;</li>
+        <li>Trademark:&trade;</li>
+        <li>Registered Trademark:&reg; </li>
+        <li>Copyright: &copy;</li>
+    </ul>
+ </section>
+<section id= "contact"><p> <small> Contact Info:</p><ul> <li>Toll-Free-No :+91 1800563700 </li><li> or, Send your Comments to <A href= "mailto:urvipal106@gmail.com? Subject= 'Query Alert!' "> urvipal106@gmail.com</a></li>
+ </small></section>
+
+
+ <footer>
+    
+    <p>Be in touch with me: 009 xyz Gomti Nagar</p>
+    <p>Follow me on social Media:</p>
+    
+        <nav>
+            <ul>
+                <li><a href="#instagram">Instagram</a></li>
+                <li><a href="#facebook">Facebook</a></li>
+                <li><a href="#twitter">Twitter</a></li>
+                
+            </ul>
+        </nav>
+    </footer>
+
+      
+   <hr><p align="center"> &copy;|All rights reserved|&reg; </p><hr>
+</body>
+</html>
